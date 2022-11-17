@@ -1,0 +1,8 @@
+.section-book{
+  padding: 15rem 0;
+  background: $color-grey-dark-3;
+
+  @include respond(tab-port) {
+      padding: 10rem 0;
+  }
+}

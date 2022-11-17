@@ -1,0 +1,36 @@
+{
+  "name": "wedding-planner",
+  "version": "1.0.0",
+  "description": "Site pour wedding planner, de type landing page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juli3n-dotcom/Wedding-planner.git"
+  },
+  "keywords": [
+    "wedding",
+    "développeur",
+    "web",
+    "wedding",
+    "planner",
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Julien QUENTIER",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Juli3n-dotcom/Wedding-planner/issues"
+  },
+  "homepage": "https://github.com/Juli3n-dotcom/Wedding-planner#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1"
+  }
+}

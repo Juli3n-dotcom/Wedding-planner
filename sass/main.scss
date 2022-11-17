@@ -1,0 +1,40 @@
+// utils
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/utilities';
+
+//base
+@import 'base/base';
+@import 'base/typography';
+@import 'base/animations';
+
+//layout
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/footer';
+
+//components
+@import 'components/button';
+@import 'components/compositions';
+@import 'components/feature-box';
+@import 'components/card';
+@import 'components/bg-stories';
+@import 'components/story';
+@import 'components/book';
+@import 'components/form';
+
+
+//Pages
+@import 'pages/about';
+@import 'pages/features';
+@import 'pages/prices';
+@import 'pages/stories';
+@import 'pages/book';
+
+// importing core styling file
+@import "fontawesome/fontawesome.scss";
+
+// our project needs Classic Solid, Brands, and Sharp Solid 
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
